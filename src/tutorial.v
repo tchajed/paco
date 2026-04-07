@@ -4,7 +4,7 @@
 (** printing -> $\rightarrow$ #&rarr;# *)
 (** printing /\ $\land$ #&and;# *)
 
-Require Import Setoid Program.
+From Stdlib Require Import Setoid Program.
 Require Import Paco.paco.
 
 
