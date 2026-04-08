@@ -10,6 +10,7 @@ dev-repo: "git+https://github.com/snu-sf/paco.git"
 
 depends: [
   "rocq-core" {>= "9.0"}
+  "rocq-stdlib"
 ]
 
 build: [make "-C" "src" "all" "-j%{jobs}%"]
